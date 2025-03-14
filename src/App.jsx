@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="calculatordsad">
+      <div className="calculator">
         <input type="text" value={input} readOnly className="display" />
         <div className="buttons">
           <button onClick={() => handleClick("1")}>1</button>
